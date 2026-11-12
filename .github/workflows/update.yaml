@@ -31,5 +31,7 @@ jobs:
         cd standalone
         rm -rf spack_repo
         cp -r ../trilinos/commonTools/spack_wrappers/spack_repo .
+        git config user.email "ac-gha-entity@sandia.gov"
+        git config user.name "Trilinos-bot"
         git commit -m "Package updates"
         git push
