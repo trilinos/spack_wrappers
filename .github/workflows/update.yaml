@@ -24,7 +24,7 @@ jobs:
       with:
         repository: trilinos/Trilinos
         ref: develop
-        path: Trilinos
+        path: trilinos
 
     - name: Regenerate repo
       run: |
