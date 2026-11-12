@@ -32,4 +32,4 @@ jobs:
         rm -rf spack_repo
         cp -r ../trilinos/commonTools/spack_wrappers/spack_repo .
         git commit -m "Package updates"
-        # git push
+        git push
