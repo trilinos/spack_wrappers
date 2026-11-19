@@ -1,0 +1,4 @@
+repo_index:
+  paths:
+  - spack_repo/trilinos_dev
+  
